@@ -2,7 +2,7 @@
 node_modules/
 unpackage/
 dist/
-
+uni_modules/
 # local env files
 .env.local
 .env.*.local

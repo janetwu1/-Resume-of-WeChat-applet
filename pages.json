@@ -1,0 +1,35 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/404/404",
+			"style": {
+				"navigationBarTitleText": "页面没有找到",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的简历",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "subpages",
+		"pages": [{
+			"path": "chat/chat",
+			"style": {
+				"navigationBarTitleText": "知心姐姐聊天",
+				"enablePullDownRefresh": true,
+				"disablescroll": true
+			}
+		}]
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
